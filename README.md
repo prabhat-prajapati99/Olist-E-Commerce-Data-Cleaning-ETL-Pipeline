@@ -72,5 +72,3 @@ Import the clean datasets into their respective tables.
 2. Analytics Environment
 Launch the Tableau workbook file or visit the live cloud server link below to interact with the dynamic multi-dashboard pipeline.
 
-🔗 Live Interactive Links
-Interactive Tableau Dashboard: 👉(https://public.tableau.com/views/Olist_Dashboard_17791077545270/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
