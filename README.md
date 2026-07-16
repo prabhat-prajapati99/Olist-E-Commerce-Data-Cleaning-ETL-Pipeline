@@ -3,11 +3,11 @@
 An end-to-end Data Engineering and Analytics project optimizing, structuring, and analyzing Brazil's largest marketplace dataset (Olist) containing millions of interrelated transactional records.
 
 ---
-
+## "Kaggle Olist Dataset Link: [(https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)]"
 ## 🛠️ Project Architecture & Tech Stack
 * **Data Cleaning & ETL Pipeline:** Python (Pandas / Jupyter Notebook)
-* **Relational Database Management:** SQL (PostgreSQL / pgAdmin)
-* **Business Intelligence & UI/UX:** Tableau
+* **Relational Database Management:** SQL (SQL Server)
+* **Business Intelligence & UI/UX:** Power bi
 
 ---
 
@@ -43,7 +43,7 @@ String Processing & Formatting: Solved encoding issues related to Latin text/Por
 
 Data Type Enforcement: Parsed object types into standardized ISO datetime objects to allow seamless time-series trend plotting.
 
-2️⃣ Phase 2: Relational Schema & SQL Optimization (pgAdmin)
+2️⃣ Phase 2: Relational Schema & SQL Optimization (SQL Server)
 Designed a clean relational schema joining structural transactional entities across customers, orders, and payments datasets.
 
 Avoided multi-million row duplicate mismatches by applying strict COUNTD and distinct primary key pairing strategies during core query joins.
@@ -63,7 +63,7 @@ Solution: Fixed the spatial matching errors by structuring a tight Geographical 
 
 🚀 How to Run this Project Locally
 1. Database Setup (SQL)
-Open pgAdmin / PostgreSQL.
+Open SQL Server
 
 Execute the schema definitions found in SQL_Queries/Table_DDL_Schemas.sql.
 
